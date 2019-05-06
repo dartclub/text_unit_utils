@@ -1,0 +1,18 @@
+name: vocab_utils
+version: 1.0.0
+authors:
+- Arman Torkzaban <at@vo.tc>
+- Adrian Stabiszewski <as@grundid.de>
+homepage: https://git.mant.life/arman/srt_to_vocab
+
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  csslib: ^0.14.6
+  srt_parser: ^1.1.0+3
+  rxdart: ^0.20.0
+  flutter:
+    sdk: flutter
+
