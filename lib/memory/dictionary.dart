@@ -28,9 +28,24 @@ String filterWord(String line) {
   
   /*
   return line
-  	..replaceAll("(", "")
-    ..replaceAll(")", "")
-    // ...
+  	..replaceAll("(", "");
+  ..replaceAll(")", "");
+  ..replaceAll("#", "");
+  ..replaceAll("-(", "");
+  ..replaceAll("♪", "");
+  ..replaceAll("&", "");
+  ..replaceAll(".", " ");
+  ..replaceAll(",", " ");
+  ..replaceAll("!", " ");
+  ..replaceAll("?", " ");
+  ..replaceAll("'s", " ");
+  ..replaceAll("--", " ");
+  ..replaceAll("\ /ca", " ");
+  ..replaceAll("===", " ");
+  ..replaceAll("==", " ");
+  ..replaceAll("'d", " ");
+  ..replaceAll('\"', " ");
+  ..replaceAll(":", " ");
     ..trim();
   */
 }
