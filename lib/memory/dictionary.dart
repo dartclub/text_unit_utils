@@ -24,8 +24,15 @@ String filterWord(String line) {
   line = line.replaceAll("'d", " ");
   line = line.replaceAll('\"', " ");
   line = line.replaceAll(":", " ");
-
   return line.trim();
+  
+  /*
+  return line
+  	..replaceAll("(", "")
+    ..replaceAll(")", "")
+    // ...
+    ..trim();
+  */
 }
 
 class DictionaryOfWords {
